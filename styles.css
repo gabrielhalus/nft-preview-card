@@ -41,7 +41,7 @@ body {
 
 .img::before {
     background: hsla(178, 100%, 50%, .5);
-    content: url(images/icon-view.svg);
+    content: url(./icon-view.svg);
     height: 0%;
     width: 100%;
 
