@@ -9,6 +9,17 @@
 body {
     font-family: 'Outfit', sans-serif;
     background: hsl(217, 54%, 11%);
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#page {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
